@@ -1,65 +1,47 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f6fa;
+    background-color: #f4f7fb;
+    text-align: center; 
 }
-header {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 28px;
-    font-weight: bold;
+h1 {
+    color: #0a3d62;
+    margin-bottom: 20px;
 }
-.container {
-    display: flex;
-    justify-content: center;
-    margin:50px;
+.table-container {
+    width: 90%;
+    margin: auto;
 }
-.product-box {
-    width: 320px;
+table {
+    width: 100%;
+    border-collapse: collapse;
     background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.product-box img {
-    width: 100%;
-    border-radius: 8px;
-}
-h2 {
-    font-size: 18px;
-    margin: 10px 0 5px;
-    font-weight: bold;
-}
-.desc {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 10px;
-}
-.price {
-    margin-bottom: 15px;
-}
-.new-price {
-    color: #0a9a43;
-    font-size: 18px;
-    font-weight: bold;
-}
-.old-price {
-    text-decoration: line-through;
-    color: #999;
-    margin-left: 10px;
-}
-.button {
-    width: 100%;
-    padding: 12px;
-    background-color: #007bff;
+.day-time {
+    background-color: #0a3d62;
     color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
+    padding: 12px;
 }
-.button:hover {
-    background-color: #0066d1;
+th {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.lunch {
+    background-color: #fff2cc;
+    font-weight: bold;
+}
+.lab {
+    background-color: #dff3e3;
+    font-weight: bold;
+}
+.guest {
+    background-color: #dbe9ff;
+    font-weight: bold;
+}
+tr:hover td {
+    background-color: #f1f1f1;
 }
